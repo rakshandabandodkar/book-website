@@ -34,11 +34,23 @@ fieldset:disabled .btn {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+}
+.navbar-toggler {
+    padding: 3px 6px;
+}
 .section-title {
     padding-bottom: 16px;
 }
-
+.logo-body{
+    display: flex;
+    align-items: center;
+}
 .hero {
     padding: 100px 20px;
     background: #FFFCFA;
