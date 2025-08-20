@@ -10,7 +10,7 @@ body {
 }
 
 .text-primary {
-    color: var(--primary-color)!important;
+    color: var(--primary-color) !important;
 
 }
 
@@ -23,6 +23,22 @@ body {
     --bs-btn-active-border-color: #8E8073;
 }
 
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.section-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-title {
+    padding-bottom: 16px;
+}
+
 .hero {
     padding: 100px 20px;
     background: #FFFCFA;
@@ -32,12 +48,24 @@ body {
     background: var(--primary-color);
     color: #fff;
     text-align: center;
-    padding: 60px 20px;
 }
 
 footer {
-    background: #111;
+    background: rgb(33, 37, 41);
     color: #ccc;
     text-align: center;
     padding: 20px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        gap: 20px;
+    }
+}
+.blockquote-footer {
+    margin-top: -.5rem;
+    margin-bottom: 0;
+}
+.slick-prev:before, .slick-next:before {
+    color: rgb(33, 37, 41);
 }
