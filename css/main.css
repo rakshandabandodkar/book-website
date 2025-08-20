@@ -65,8 +65,8 @@ fieldset:disabled .btn {
 }
 
 .hero {
-    padding: 40px 20px;        min-height: 100vh;
-
+    padding: 40px 20px;
+    min-height: 100vh;
     background: url(../images/book-cover2.jpg) center / cover no-repeat;
 }
 
