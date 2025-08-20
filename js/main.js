@@ -53,16 +53,34 @@ form.addEventListener("submit", e => {
             submitBtn.innerText = "Submit";
         });
 });
-$(document).ready(function(){
-  $('.testimonial-slider').slick({
-    dots: true,             // show navigation dots
-    arrows: true,           // show next/prev arrows
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,        // show 1 review at a time
-    slidesToScroll: 1,
-    autoplay: true,         // auto-slide
-    autoplaySpeed: 2000,    
-    adaptiveHeight: true
-  });
+$(document).ready(function () {
+    $('.testimonial-slider').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        adaptiveHeight: true,
+        responsive: [
+
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                     arrows: false,
+                }
+            }
+        ]
+    });
 });
