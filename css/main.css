@@ -34,26 +34,43 @@ fieldset:disabled .btn {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
+
 .navbar-toggler-icon {
     width: 1em;
     height: 1em;
 }
+
 .navbar-toggler {
     padding: 3px 6px;
 }
+
 .section-title {
     padding-bottom: 16px;
 }
-.logo-body{
+
+.logo-body {
     display: flex;
     align-items: center;
 }
+
 .hero {
     padding: 100px 20px;
-    background: #FFFCFA;
+    background: url(../images/book-cover2.jpg) center / cover no-repeat;
+    min-height: 100vh;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.hero-section-content {
+    text-align: left;
+    max-width: 50%;
+    margin-left: 0;
 }
 
 .cta-section {
@@ -68,18 +85,23 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
 p.section-subtitle {
     margin-bottom: 2rem;
 }
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
         gap: 20px;
     }
 }
+
 .blockquote-footer {
     margin-top: -.5rem;
     margin-bottom: 0;
 }
-.slick-prev:before, .slick-next:before {
+
+.slick-prev:before,
+.slick-next:before {
     color: rgb(33, 37, 41);
 }
