@@ -70,11 +70,16 @@ fieldset:disabled .btn {
     background: url(../images/book-cover2.jpg) center / cover no-repeat;
 }
 
+@media (max-width:768px) {
+    .section-header {
+        margin-top: -25px;
+    }
+}
+
 @media (min-width:991px) {
 
     .hero {
         padding: 100px 20px;
-        min-height: 100vh;
     }
 }
 
