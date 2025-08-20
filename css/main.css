@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #bcaa99 !important;
+    --bs-primary: #bcaa99 !important;
+    --bs-primary-rgb: #bcaa99 !important;
+
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.text-primary {
+    color: var(--primary-color)!important;
+
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    --bs-btn-hover-bg: #8E8073;
+    --bs-btn-hover-border-color: #8E8073;
+    --bs-btn-active-bg: #8E8073;
+    --bs-btn-active-border-color: #8E8073;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: #FFFCFA;
+}
+
+.cta-section {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
