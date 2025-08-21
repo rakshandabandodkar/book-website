@@ -119,7 +119,10 @@ p.section-subtitle {
         gap: 20px;
     }
 }
-
+.card img {
+    width: 80px;
+    height: 80px;
+}
 .blockquote-footer {
     margin-top: -.5rem;
     margin-bottom: 0;
