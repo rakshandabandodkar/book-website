@@ -9,6 +9,10 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+.mw-800 {
+    max-width: 800px;
+}
+
 .text-primary {
     color: var(--primary-color) !important;
 
@@ -90,8 +94,6 @@ fieldset:disabled .btn {
 @media (min-width:991px) {
     .hero-section-content {
         text-align: left;
-        max-width: 50%;
-        margin-left: 0;
     }
 }
 
